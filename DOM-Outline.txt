@@ -22,20 +22,22 @@
  appendChild()
  textContent
  innerHTML
+
  after()
  append()
  prepend()
- insertAdjacentHTML()
- replaceChild()
- cloneNode()
- removeChild()
- insertBefore()
+
+ insertAdjacentHTML() 👉 নির্দিষ্ট পজিশনে HTML যোগ করার জন্য।
+ replaceChild() 👉 কোনো child element কে অন্য element দিয়ে replace করা।
+ cloneNode() 👉 কোনো element কপি (clone) করার জন্য।
+ removeChild() 👉 parent থেকে কোনো child element মুছে ফেলা।
+ insertBefore() 👉 কোনো element কে অন্য element এর আগে insert করার জন্য।
 
 # Attribute methods
- getAttribute()
- setAttribute()
- hasAttribute()
- removeAttribute()
+  getAttribute("attrName") → মান বের করবে
+  setAttribute("attrName", "value") → মান সেট/আপডেট করবে
+  hasAttribute("attrName") → attribute আছে কি না চেক করবে
+  removeAttribute("attrName") → attribute মুছে ফেলবে
 
 # Manipulating Element's Styles
  style property
