@@ -13,3 +13,11 @@ function multiply(num1 = 1, num2 = 1) {
 }
 
 multiply(15);
+
+// string for default value is empty string ""
+function myName(fname = "", lname = "") {
+  const fullName = fname + lname;
+  console.log(fullName);
+}
+
+myName("priyotush ");
