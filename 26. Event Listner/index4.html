@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Bubble</title>
+
+    <!-- cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- style -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="section">
+        <h1>Body Section</h1>
+
+        <div id="parent">
+          <h2>Parent Section</h2>
+
+          <div id="child">
+            <h3>Child Section</h3>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <ul id="item-list">
+          <li class="item">item - 1</li>
+          <li class="item">item - 2</li>
+          <li class="item">item - 3</li>
+          <li class="item">item - 4</li>
+          <li class="item">item - 5</li>
+          <li class="item">item - 6</li>
+        </ul>
+
+        <button id="add-btn">Add New Item</button>
+      </section>
+      <hr />
+      <section>
+        <input id="name-input" type="text" placeholder="Enter Your Name..." />
+
+        <button id="name-btn">Add Name</button>
+      </section>
+
+      <br />
+      <p id="name-add"></p>
+    </main>
+    <!-- js link -->
+    <script src="./js/index4.js"></script>
+  </body>
+</html>

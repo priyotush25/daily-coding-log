@@ -1,0 +1,23 @@
+#section {
+  border: 2px solid red;
+  padding: 20px;
+  background: gray;
+}
+
+#parent {
+  border: 2px solid red;
+  padding: 20px;
+  background: goldenrod;
+}
+
+#child {
+  border: 2px solid red;
+  padding: 20px;
+  background: blue;
+}
+
+.item {
+  border: 2px solid gainsboro;
+  border-radius: 4px;
+  padding: 10px;
+}

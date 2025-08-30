@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>JS Event Listener</title>
+  </head>
+  <body>
+    <h1>JS DOM Explore</h1>
+
+    <button onclick="console.log('Hello World!')">Click Me</button>
+    <br />
+    <!-- option 2 for event handler -->
+    <button onclick="makeYellow()">Make Yellow</button>
+    <button onclick="makeRed() ">Make Red</button>
+    <br />
+
+    <!-- option 3 -->
+    <button id="make-blue">Make Blue</button>
+    <button id="make-purple">Make Blue</button>
+    <br />
+    <hr />
+    <!-- option 4 -->
+    <button id="make-green">Make Green</button>
+    <button id="make-gold">Make Gold</button>
+
+    <section>
+      <h1 id="page-title">Event Handler</h1>
+      <button id="title-btn">Update title</button>
+
+      <br />
+      <hr />
+      <br />
+
+      <p id="user-info">No User</p>
+      <button id="login-btn">Login</button>
+
+      <br />
+      <hr />
+      <br />
+      <h4 id="name-text">No Name</h4>
+      <input type="text" id="input-text" />
+      <button id="update-btn">Update</button>
+    </section>
+
+    <!-- js file connect  -->
+    <script src="./js/index2.js"></script>
+  </body>
+</html>
